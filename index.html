@@ -6,42 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="icon" type="image/jpg" href="./Datos-de-Task1/Logo_Mighty_ducks-01.png"/>
+    <link rel="stylesheet" href="style.css">
 </head>
+    <header>
+        <banner>
+            <h1>Mighty Ducks Hockey League</h1>           
+        </banner>
+    </header>
+    <nav>
+        <input type="checkbox" name="Home" id="homeButton" checked hidden>
+        <a id= "botonHome" class=button href="#" >Home</a>
+        
+        <input type="checkbox" name="Home" id="homeButton"  hidden>
+        <a id= "botonAbout" class=button href="./about.html">About</a>
+        
+        <input type="checkbox" name="Home" id="homeButton"  hidden>
+        <a id= "botonContact" class=button href="./contact.html">Contact</a>
+    </nav>
     <body>
-        <header>
-            <picture>
-                <img src="./Datos-de-Task1/Logo_Mighty_ducks-01.png" alt="Logo" width="150">
-            </picture>
-        </header>
-        <h1>Mighty Ducks Hockey League</h1>
-        <nav>
-            <a href="#">Home</a>
-            |
-            <a href="./about.html">About MDHL</a>
-            |
-            <a href="./contact.html">contact</a>c
-        </nav>
         <main>
+            <h2>Upcoming Events</h2>
             <picture>
-                <img src="./Datos-de-Task1/hockey_1.jpg" alt="George" width="150">
+                <img class = "logoContainer" src="./Images/LogoMighty.png" alt="Logo" width="150">
             </picture>
-            <h3>Upcoming Events</h3>
-            <ul>
-                <li>
-                    <h4>August</h4>
-                    <p>MDSL Fundraiser</p>
-                </li>
-                <li>
-                    <h4>August 16</h4>
-                    <p>Season Kick-off: Meet the Teams</p>
-                </li>
-                <li>
-                    <h4>September 1</h4>
-                    <p>First Game of the Season (Check Game Schedule for details)</p>
-                </li>
-            </ul>
+                <div class="containerContenido">
+                    <br>
+                    <ul>
+                        <li>
+                            <h4>August</h4>
+                            <p>MDSL Fundraiser</p>
+                        </li>
+                        <li>
+                            <h4>August 16</h4>
+                            <p>Season Kick-off: Meet the Teams</p>
+                        </li>
+                        <li>
+                            <h4>September 1</h4>
+                            <p>
+                                First Game of the Season (Check Game Schedule for details)</p>
+                        </li>
+                    </ul>
+                    <br>
+
+            </div>
         </main>
-       
+       <footer>
+       </footer>
     </body>
 </html>
 

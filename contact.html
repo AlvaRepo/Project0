@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Home</title>
     <link rel="icon" type="image/jpg" href="./Datos-de-Task1/Logo_Mighty_ducks-01.png"/>
-    </head>
- 
-    <body>
-        <header>
-                <picture>
-                    <img src="./Datos-de-Task1/Logo_Mighty_ducks-01.png" alt="Logo" width="150">
-                </picture>
-            <br>
-        </header>
-        <h1>Mighty Ducks Hockey League</h1>
-        <nav>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <header>
+        <banner>
+            <h1>Mighty Ducks Hockey League</h1>           
+        </banner>
+    </header>
+    <nav>
+        <input type="checkbox" name="Home" id="homeButton"  hidden>
+        <a id= "botonHome" class=button href="./index.html" >Home</a>
         
-            <a href="./index.html">Home</a>
-            |
-            <a href="./about.html">About MDHL</a>
-            |
-            <a href="#">contact</a>
-        </nav>
+        <input type="checkbox" name="Home" id="aboutButton"  hidden>
+        <a id= "botonAbout" class=button href="./about.html">About</a>
+        
+        <input type="checkbox" name="Home" id="contactButton"  hidden checked>
+        <a id= "botonContact" class=button href="#">Contact</a>
+    </nav>
+    <body>
         <main>
+            <h2>Contact</h2>
             <picture>
-                <img src="./Datos-de-Task1/hockey_3.jpg" alt="Will" width="150">
+                <img class = "logoContainer" src="./Images/LogoMighty.png" alt="Logo" width="150">
             </picture>
             <br>
-            Please email us at <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a><br>
-            We reply to your email as soon as we can.
+            <div class="containerContenido">
+
+                <p>
+                    Please email us at <a target="_blank" href="mailto:email@example.com">mdhl@chihockey.org</a><br>
+                    We reply to your email as soon as we can.
+                    <br> <br>
+                </p>
+            </div>
         </main>
     </body>
+    <footer>
+    </footer>
 </html>
