@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content:space-around;
     height: 200px;
-    
+
 }
 .logo {
     position: absolute;
@@ -42,8 +42,7 @@ body{
 }
 
 .menuIcono:hover {
-    cursor: ;
-    -webkit-filter: brightness(8);
+    filter: brightness(8);
     transition: .3s;
 }
 .menu-container {
