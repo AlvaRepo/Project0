@@ -2,21 +2,67 @@
     list-style: none;
     margin: 0px;
     padding: 0px;
-    font-size: 18px;
+    color: rgb(0, 62, 91);
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .15);
 }
 a, a:visited, a:hover, a:active {
     color: inherit;
-  }
-body{
-    background-color: rgb(245, 255, 255);
 }
 
+body{
+    background-color: rgb(209, 242, 245);
+}
+main {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgb(209, 242, 245);
+    font-size: 0.8rem;
+    font-style: cursive;
+    text-align: center;
+}
+p {
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
+.imgHome {
+    max-height: 300px;
+    min-width: 400px;
+    background-image: url(./Images/hockey_2.jpg);
+    background-size: cover;
+    
+}
+.imgContact {
+    max-height: 300px;
+    min-width: 400px;
+    background-image: url(./Images/hockey_3.jpg);
+    background-size: cover;
+}
+.imgAbout {
+    max-height: 500px;
+    min-width: 400px;
+    background-image: url(./Images/hockey_1.jpg);
+    background-size: cover;
+}
+.imgRules {
+    max-height: 300px;
+    min-width: 400px;
+    background-image: url(./Images/image1.jpg);
+    background-size: cover;
+}
+.imgGameInfo {
+    max-height: 300px;
+    min-width: 400px;
+    background-image: url(./Images/image2.jpg);
+    background-size: cover;
+}
 .containerImage {
     display: flex;
     justify-content:space-around;
     height: 200px;
-
 }
 .logo {
     position: absolute;
@@ -24,9 +70,8 @@ body{
     align-self: center;
     text-align: center;
     width: 100%;
-
 }
-.logo > img {
+.logoBanner {
     width: 200px;
     filter: drop-shadow(3px 5px 3px rgba(0, 0, 0, 0.885));
 }
@@ -40,7 +85,6 @@ body{
     height: 30px;
     filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
 }
-
 .menuIcono:hover {
     filter: brightness(8);
     transition: .3s;
@@ -55,7 +99,6 @@ body{
     border-end-start-radius: 1.5em;
     
 }
-
 .menu-item {
     padding: .3rem;
     color: rgb(216, 253, 254);
@@ -84,4 +127,50 @@ body{
     text-decoration-line: none;
     text-decoration-color: none;
 }
-    
+
+footer {
+    height: 2.5rem;
+    background-color: rgb(130, 198, 203);
+}
+.content {
+    width: 100%;
+    min-height: 300px;
+    min-width: 200px;
+}
+
+.content h2{
+    font-size: 1.4rem;
+    font-style: cursive;
+    text-align: center;
+    background-color: rgba(242, 254, 185, 0.786);
+}
+.content h3 {
+    font-size: 1.4rem;
+    font-style: cursive;
+    text-align: center;
+}
+.content h4 {
+    font-size: 1.2rem;
+    font-style: cursive;
+    text-align: center;
+}
+
+content strong {
+    display: inline-block;
+    flex-basis: content;
+    font-weight: 300;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table *{
+    vertical-align: middle;
+    text-align: center;
+}
+
+table td {
+    height: 1.5rem;
+    width: 10rem;
+}
